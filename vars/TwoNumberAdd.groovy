@@ -2,7 +2,7 @@
 def call(int a, int b) {
     container('git') {
         script {
-            git(url: "https://oauth2:2181b1955b6a5d98c5a2faf5ade00da07fd90b60@github.com/xiexiongmaojun/hello-world.git" , credentialsId: '', branch: "master")
+            git(url: "https://oauth2:xxxxxxx@github.com/x/hello-world.git" , credentialsId: '', branch: "master")
         }
     }
     withSonarQubeEnv('SonarQube') {
